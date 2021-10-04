@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    ports:
+      - ${HOST_HTTP_PORT:-8080}:80
+      - ${HOST_HTTPS_PORT:-8081}:443
