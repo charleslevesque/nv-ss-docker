@@ -1,0 +1,20 @@
+# dotnet related
+obj/
+bin/
+
+# Client application
+ClientApp/build/
+ClientApp/node_modules/
+ClientApp/README.md
+ClientApp/.prettierrc
+ClientApp/.gitignore
+
+# Common files
+.editorconfig
+.gitignore
+README.md
+LICENSE
+*.env
+
+# Development files
+.devcontainer/
